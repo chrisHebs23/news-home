@@ -74,3 +74,24 @@ body {
   text-decoration: none;
   color: hsl(240, 100%, 5%);
 }
+
+/* home page */
+.main-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: column;
+}
+
+.big-story {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+
+.big-story-img {
+  background-image: url("./assets/images/image-web-3-mobile.jpg");
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
