@@ -82,16 +82,24 @@ body {
   display: flex;
   justify-content: column;
 }
+.stories-container {
+  height: auto;
+  width: 100%;
+}
 
 .big-story {
   width: 100%;
-  display: flex;
   height: auto;
 }
 
 .big-story-img {
   background-image: url("./assets/images/image-web-3-mobile.jpg");
   background-size: cover;
-  height: 50vh;
+  height: 55vh;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.big-story-text {
+  color: hsl(240, 100%, 5%);
 }
