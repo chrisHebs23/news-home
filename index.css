@@ -1,7 +1,48 @@
 body {
-  margin: 15px;
+  margin: 20px 15px;
   background-color: hsl(36, 100%, 99%);
   font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 3rem;
+  color: hsl(240, 100%, 5%);
+  margin: 1rem 0;
+  font-weight: 800;
+  line-height: 3.2rem;
+}
+
+h2 {
+  color: hsl(35, 77%, 62%);
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+h3 {
+  color: hsl(36, 100%, 99%);
+  font-size: 1.3rem;
+}
+
+button {
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  color: hsl(36, 100%, 99%);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  padding: 15px 30px;
 }
 
 /* Nav design */
@@ -31,7 +72,7 @@ body {
   top: 0;
   right: 0;
   z-index: 5;
-  padding: 15px;
+  padding: 20px;
 }
 
 #behind-nav {
@@ -73,33 +114,92 @@ body {
 .open-nav-container a {
   text-decoration: none;
   color: hsl(240, 100%, 5%);
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 
 /* home page */
 .main-container {
   width: 100%;
   overflow: hidden;
-  display: flex;
-  justify-content: column;
 }
 .stories-container {
   height: auto;
   width: 100%;
+  margin-bottom: 60px;
 }
 
 .big-story {
   width: 100%;
   height: auto;
+  margin-bottom: 60px;
 }
 
 .big-story-img {
   background-image: url("./assets/images/image-web-3-mobile.jpg");
   background-size: cover;
-  height: 55vh;
+  height: 42vh;
   width: 100%;
   margin-bottom: 30px;
 }
 
 .big-story-text {
   color: hsl(240, 100%, 5%);
+}
+
+.new-container {
+  background-color: hsl(240, 100%, 5%);
+  padding: 25px;
+}
+
+.new-story-div {
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.new-story-div p {
+  font-weight: 400;
+  color: hsl(233, 8%, 79%);
+  /* font-size: 1.2rem; */
+}
+
+.new-story-3 {
+  border: none;
+}
+
+.new-story-3 p {
+  margin-bottom: 0;
+}
+
+.top-stories {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-stories-containers {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.top-stories-containers img {
+  width: 32%;
+  height: auto;
+}
+
+.top-stories-text {
+  width: 63%;
+}
+
+.top-stories h2 {
+  color: hsl(233, 8%, 79%);
+  margin-top: 0;
+}
+.top-stories h3 {
+  color: hsl(240, 100%, 5%);
+  margin: 0;
+  font-size: 1.2rem;
+}
+.top-stories p {
+  margin-bottom: 0;
 }
