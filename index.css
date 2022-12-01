@@ -139,7 +139,7 @@ button {
   background-image: url("./assets/images/image-web-3-mobile.jpg");
   background-size: cover;
   height: 42vh;
-  width: 100%;
+  width: auto;
   margin-bottom: 30px;
 }
 
@@ -202,4 +202,26 @@ button {
 }
 .top-stories p {
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 60px 140px;
+  }
+
+  .stories-container {
+    display: grid;
+  }
+  .big-story {
+    width: 66.7%;
+  }
+
+  .big-story-img {
+    background-image: url("./assets/images/image-web-3-desktop.jpg");
+    height: 40vh;
+    width: 100%;
+  }
+  .new-container {
+    width: 25%;
+  }
 }
