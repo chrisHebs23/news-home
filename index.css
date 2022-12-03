@@ -208,6 +208,23 @@ button {
   body {
     margin: 30px 140px;
   }
+
+  .navbar-nav {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+  }
+
+  .open-slide {
+    display: none;
+  }
+
   .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
